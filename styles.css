@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgba(250,60, 40, .50);
+}
+
+.container .header{
+  background: black;
+  color: aliceblue;
+}
+
+.container .sidebar{
+  background: rgba(40,150, 120, .70);
+}
+
+.container .content{
+  padding: 50px;
+}
+
+.footer{
+  background: #303030;
+  color: #909090;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+.container{
+  display: grid;
+  grid-template-columns: 280px repeat(3,1fr);
+  grid-template-rows: 80px 200px 200px 200px;
+}
+
+.container .header{
+  grid-column: 2/-1;
+}
+
+.container .sidebar{
+  grid-column: 1/2;
+  grid-row: 1/5;
+}
+
+.container .content{
+  grid-column: 2/-1;
+  grid-row: 2/5;
+}
+
+.container .footer{
+  grid-column: 1/-1;
+}
